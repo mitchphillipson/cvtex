@@ -1,0 +1,116 @@
+\documentclass[10pt]{article}
+
+\usepackage[top=1.5in,bottom=1in,right=1in,left=1in,headheight=15pt]{geometry}
+\usepackage{fancyhdr}
+
+
+
+\pagestyle{fancy}
+\lhead{Curriculum Vitae} 
+\chead{{\large{\bf Name in Header.tex}}} 
+\rhead{\thepage}
+
+\lfoot{} 
+\cfoot{}
+\rfoot{} 
+
+\setlength{\parindent}{0pt}
+
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\makeatletter
+\def\@seccntformat#1{\csname #1ignore\expandafter\endcsname\csname the#1\endcsname\quad}
+\let\sectionignore\@gobbletwo
+\let\latex@numberline\numberline
+\def\numberline#1{\if\relax#1\relax\else\latex@numberline{#1}\fi}
+\makeatother
+
+%\newsectionwidth{30pt}  % So the text is not indented under section
+%headings
+%\setlength{\textheight}{10.2in} % set text height big enough for box
+%\topmargin=0in       % to start box .5in from top of page
+%\oddsidemargin=0in   % to start box .5in from left of page
+
+
+\begin{document}
+
+\noindent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{\textbf{\large Address}}Street Address\\City, State\\zip\\Email Address\\\vspace{0.5\baselineskip}
+
+
+
+
+
+\section{\textbf{\large Education}}University Here\hfill Fall 2009--May 2015\\Ph.D Mathematics\\City, State is Optional\vspace{0.5\baselineskip}
+
+
+Can have multiple\hfill Fall 2005--Spring 2009\\B.S. Mathematics and Physics\\Eau Claire, WI\vspace{0.5\baselineskip}
+
+
+
+
+
+\section{\textbf{\large Work Experience}}\textit{Visiting Assistant Professor} \hfill Summer 2012--Spring 2016\\Where, City, State\\If you want a note\vspace{0.5\baselineskip}
+
+
+\textit{TItle} \hfill January 1942--Spring 2015\\Where, City, State\\Entries are sorted automatically according to end date.\vspace{0.5\baselineskip}
+
+
+
+
+
+\section{\textbf{\large Awards and Honors}}\textit{title}\hfill April 2009\\WHere, City, State\vspace{0.5\baselineskip}
+
+
+
+
+
+\section{\textbf{\large Publications}}\textit{Title}. Authors. Journal (Spring 2009)\vspace{0.5\baselineskip}
+
+
+
+
+
+\section{\textbf{\large Presentations}}\textit{Title}\hfill Spring 2009\\Where, City, State\vspace{0.5\baselineskip}
+
+
+
+
+
+\section{\textbf{\large Selected Posters}}\textit{Title}\hfill Spring 2009\\Where, City, State\vspace{0.5\baselineskip}
+
+
+
+
+
+
+
+%}
+
+%\vfill} %    end the material being boxed.
+\end{document}
+

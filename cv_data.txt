@@ -1,0 +1,135 @@
+
+
+{
+keyword = address;
+street = Street Address;
+city = City;
+state = State;
+zipcode = zip;
+email = Email Address;
+small=true;
+}
+
+{
+keyword = education;
+university = University Here;
+degree = Ph.D Mathematics;
+city = City;
+state = State is Optional;
+begin = Fall 2009;
+end = May 2015;
+HTML = true;
+show = true;
+small = true;
+}
+
+
+{
+keyword = education;
+university = Can have multiple;
+degree = B.S. Mathematics and Physics;
+city = Eau Claire;
+state = WI;
+begin = Fall 2005;
+end = Spring 2009;
+HTML = true;
+small = true;
+}
+
+
+{
+keyword = publication;
+title = Title;
+authors = Authors;
+journal = Journal;
+year = Spring 2009;
+small=true;
+}
+
+
+
+{
+keyword = talk conference;
+title = Title;
+conference = Where;
+location = Where;
+begin = Spring 2009;
+city = City;
+state = State;
+}
+
+
+
+
+
+{
+keyword = poster;
+title = Title;
+begin = Spring 2009;
+city = City;
+state = State;
+location = Where;
+}
+
+
+{
+keyword = work experience;
+title = Visiting Assistant Professor;
+location = Where;
+begin = Summer 2012;
+end = Spring 2016;
+city = City;
+state = State;
+description = If you want a note;
+small=true;
+}
+
+
+
+{
+keyword = work experience;
+title = TItle;
+location = Where;
+begin = January 1942;
+end = Spring 2015;
+city = City;
+state = State;
+description = Entries are sorted automatically according to end date.;
+small=true;
+}
+
+
+{
+keyword = award;
+title = title;
+begin = April 2009;
+city = City;
+state = State;
+location = WHere;
+HTML = true;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

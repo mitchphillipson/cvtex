@@ -1,0 +1,103 @@
+
+[
+keyword = address;
+required = street,city,zipcode,email;
+optional = country,state,website,phonenumber;
+format = {street}\\{city}', {state}'\\{zipcode}\\'{country}\\'{email}\\'{website}\\''{phonenumber}\\';
+]
+
+[
+keyword = education;
+required = university,degree,city,state,begin;
+optional = end;
+format = {university}\hfill {begin}'--{end}'\\{degree}\\{city}, {state};
+]
+
+[
+keyword = publication;
+required = title,authors,journal,year;
+optional = volume,pages,note;
+format = \textit{{{title}}}. {authors}. {journal}' Vol. {volume}' ({year})', Pages {pages}''. {note}';
+]
+
+[
+keyword = work experience;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}} \hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+
+[
+keyword = mentoring;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}} \hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+
+[
+keyword = outreach;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}} \hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = award;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = grant;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+
+[
+keyword = talk conference;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = conference;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = organization;
+required = title,location,begin,city;
+optional = end,description,state,role;
+format = \textit{{{title}'--{role}'}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = undergraduate research;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = poster;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+[
+keyword = undergraduate presentation;
+required = title,location,begin,city;
+optional = end,description,state;
+format = \textit{{{title}}}\hfill {begin}'--{end}'\\{location}, {city}', {state}''\\{description}';
+]
+
+
